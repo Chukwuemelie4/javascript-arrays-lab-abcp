@@ -17,5 +17,6 @@ function destructivelyRemoveFirstKitten(){
 }
 // 4 begins
 function appendKitten(name){
-  appendKitten.splice=(2 , 0 , name);
+  appendKitten.splice=(-1,0,name);
+
 }
